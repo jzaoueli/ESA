@@ -1,0 +1,3 @@
+alternative implementation of the .esa.jsf examples, using cdi annotations.
+note that web-inf/beans.xml is necessary in order for cdi to be applied to this project!
+when referencing ejbs via jndi, @EJB(lookup="...") works, whereas @EJB(mappedName="...") does not. Instead of the latter, @Resource(mappedName="") can be used.

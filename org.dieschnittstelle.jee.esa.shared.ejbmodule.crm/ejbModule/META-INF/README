@@ -1,0 +1,1 @@
+The datasource and persistence units declarations are deactivated because we use a common PU with the erp ejbmodule and the declarations are done there.

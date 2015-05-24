@@ -1,0 +1,5 @@
+package org.dieschnittstelle.jee.esa.servlets;
+
+public class ProductServletContextListener {
+
+}

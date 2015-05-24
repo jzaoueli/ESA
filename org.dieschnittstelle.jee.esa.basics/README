@@ -1,0 +1,9 @@
+1. change consumables/consumable to stock/stockitem
+2. remove current usage of acquire and use setters instead
+3. implement acquire as consume, i.e. as the consumption of some units
+4. remove consumer class and implement usage of acquire/consume in ShowAnnotations/ShowReflection
+5. change show to demo or test
+
+6. remove everything related to dynproxy!
+7. change structure of annotations and reflection package, add milch/schokolade milk/chocolate to subpackage "products", and change config file accordingly
+

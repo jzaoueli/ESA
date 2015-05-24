@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="org.dieschnittstelle.jee.esa.ejbs">
+        <wb-resource deploy-path="/" source-path="/EarContent" tag="defaultRootSource"/>
+        <dependent-module archiveName="org.dieschnittstelle.jee.esa.shared.ejbmodule.crm.jar" deploy-path="/" handle="module:/resource/org.dieschnittstelle.jee.esa.shared.ejbmodule.crm/org.dieschnittstelle.jee.esa.shared.ejbmodule.crm">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="org.dieschnittstelle.jee.esa.shared.lib.jar" deploy-path="/lib" handle="module:/resource/org.dieschnittstelle.jee.esa.shared.lib/org.dieschnittstelle.jee.esa.shared.lib">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="org.dieschnittstelle.jee.esa.shared.ejbmodule.erp.jar" deploy-path="/" handle="module:/resource/org.dieschnittstelle.jee.esa.shared.ejbmodule.erp/org.dieschnittstelle.jee.esa.shared.ejbmodule.erp">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="org.dieschnittstelle.jee.esa.shared.entities.crm.jar" deploy-path="/lib" handle="module:/resource/org.dieschnittstelle.jee.esa.shared.entities.crm/org.dieschnittstelle.jee.esa.shared.entities.crm">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="org.dieschnittstelle.jee.esa.shared.entities.erp.jar" deploy-path="/lib" handle="module:/resource/org.dieschnittstelle.jee.esa.shared.entities.erp/org.dieschnittstelle.jee.esa.shared.entities.erp">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="org.dieschnittstelle.jee.esa.ejbs.jaxrs.war" deploy-path="/" handle="module:/resource/org.dieschnittstelle.jee.esa.ejbs.jaxrs/org.dieschnittstelle.jee.esa.ejbs.jaxrs">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>

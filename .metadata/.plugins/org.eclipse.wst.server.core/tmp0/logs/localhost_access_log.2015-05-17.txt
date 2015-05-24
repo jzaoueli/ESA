@@ -1,0 +1,12 @@
+127.0.0.1 - - [17/May/2015:17:09:07 +0200] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [17/May/2015:17:57:58 +0200] "GET /org.dieschnittstelle.jee.esa.servlets/ HTTP/1.1" 200 1855
+0:0:0:0:0:0:0:1 - - [17/May/2015:17:58:22 +0200] "POST /org.dieschnittstelle.jee.esa.servlets/gui/touchpoints/create/ HTTP/1.1" 200 2193
+0:0:0:0:0:0:0:1 - - [17/May/2015:17:58:29 +0200] "GET /org.dieschnittstelle.jee.esa.servlets/gui/touchpoints/create/ HTTP/1.1" 200 2193
+0:0:0:0:0:0:0:1 - - [17/May/2015:17:58:29 +0200] "GET /favicon.ico HTTP/1.1" 404 1016
+0:0:0:0:0:0:0:1 - - [17/May/2015:17:58:45 +0200] "POST /org.dieschnittstelle.jee.esa.servlets/gui/touchpoints/delete/1 HTTP/1.1" 200 1855
+0:0:0:0:0:0:0:1 - - [17/May/2015:17:58:51 +0200] "POST /org.dieschnittstelle.jee.esa.servlets/gui/touchpoints/create/ HTTP/1.1" 200 2193
+0:0:0:0:0:0:0:1 - - [17/May/2015:17:58:53 +0200] "POST /org.dieschnittstelle.jee.esa.servlets/gui/touchpoints/delete/2 HTTP/1.1" 200 1855
+127.0.0.1 - - [17/May/2015:18:00:54 +0200] "GET /org.dieschnittstelle.jee.esa.servlets/api/touchpoints HTTP/1.1" 200 741
+127.0.0.1 - - [17/May/2015:18:00:56 +0200] "DELETE /org.dieschnittstelle.jee.esa.servlets/api/touchpoints/0 HTTP/1.1" 405 1114
+127.0.0.1 - - [17/May/2015:18:00:56 +0200] "POST /org.dieschnittstelle.jee.esa.servlets/api/touchpoints HTTP/1.1" 200 685
+0:0:0:0:0:0:0:1 - - [17/May/2015:18:01:18 +0200] "GET /org.dieschnittstelle.jee.esa.servlets/gui/touchpoints HTTP/1.1" 200 1855

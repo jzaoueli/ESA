@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	version="2.5">
+	
+    <welcome-file-list>
+        <welcome-file>gui.html</welcome-file>        
+    </welcome-file-list>
+    
+    <!-- JK: the listener that initialises and finalises the data storage (taken from the org.dieschnittstelle.jee.esa.servlets project)-->
+	<listener>
+		<listener-class>org.dieschnittstelle.jee.esa.servlets.TouchpointServletContextListener</listener-class>
+	</listener>
+    <listener>
+		<listener-class>org.dieschnittstelle.jee.esa.servlets.ProductServletContextListener</listener-class>
+	</listener>
+    
+	<!--  JK: taken from http://www.packtpub.com/article/restful-web-service-implementation-with-resteasy -->
+	<!--  for using resteasy, just copy&paste the following section as a whole and adapt the URL pattern (see comment below) -->
+    <context-param>
+        <param-name>resteasy.scan</param-name>
+        <param-value>true</param-value>
+    </context-param>         
+    <listener>
+        <listener-class>
+       org.jboss.resteasy.plugins.server.servlet.ResteasyBootstrap
+        </listener-class>
+    </listener>
+    <servlet>
+        <servlet-name>Resteasy</servlet-name>
+        <servlet-class>
+            org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher
+        </servlet-class>
+        <!--  this parameter would be necessary if we wanted to use an application that provides shared functionality / resources to all request processing methods 
+        <init-param>
+         	<param-name>javax.ws.rs.Application</param-name>
+         	<param-value>org.dieschnittstelle.jee.esa.jaxrs.ResteasyWebServiceApplication</param-value>
+     	</init-param> -->
+    </servlet>       
+    <servlet-mapping>
+        <servlet-name>Resteasy</servlet-name>
+        <!--  this might needs to be adapted for your own URL patterns -->
+        <url-pattern>/resteasy/*</url-pattern>
+    </servlet-mapping>
+</web-app>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1429007153004_1" label="Basics" name="Basics">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.dieschnittstelle.jee.esa.basics" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1430216012593_2" label="SER" name="SER">
+<item elementID="=org.dieschnittstelle.jee.esa.servlets.client" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=org.dieschnittstelle.jee.esa.servlets" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=org.dieschnittstelle.jee.esa.shared.entities.crm" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=org.dieschnittstelle.jee.esa.shared.entities.erp" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1431878202446_4" label="JRS" name="JRS">
+<item elementID="=org.dieschnittstelle.jee.esa.jaxrs.client" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=org.dieschnittstelle.jee.esa.jaxrs" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=org.dieschnittstelle.jee.esa.shared.entities.crm" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=org.dieschnittstelle.jee.esa.shared.entities.erp" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1432030739555_5" label="JWS" name="JWS">
+<item elementID="=org.dieschnittstelle.jee.esa.jaxws.client" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=org.dieschnittstelle.jee.esa.jaxws" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=esa.uebungen.jws4" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=org.dieschnittstelle.jee.esa.shared.entities.crm" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=org.dieschnittstelle.jee.esa.shared.entities.erp" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=esa.uebungen.jws5" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1429004075105_0" label="Window Working Set" name="Aggregate for window 1429004075104"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1430216464588_5" label="Multiple Working Sets" name="Aggregate:Basics:SER:">
+<workingSet IMemento.internal.id="Basics"/>
+<workingSet IMemento.internal.id="SER"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1432030754032_6" label="Multiple Working Sets" name="Aggregate:JRS:JWS:">
+<workingSet IMemento.internal.id="JRS"/>
+<workingSet IMemento.internal.id="JWS"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1432030762846_7" label="Multiple Working Sets" name="Aggregate:Basics:JRS:JWS:SER:">
+<workingSet IMemento.internal.id="Basics"/>
+<workingSet IMemento.internal.id="JRS"/>
+<workingSet IMemento.internal.id="JWS"/>
+<workingSet IMemento.internal.id="SER"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1432030801840_9" label="Multiple Working Sets" name="Aggregate:Basics:JWS:">
+<workingSet IMemento.internal.id="Basics"/>
+<workingSet IMemento.internal.id="JWS"/>
+</workingSet>
+<mruList name="JRS"/>
+<mruList name="Basics"/>
+<mruList name="JWS"/>
+<mruList name="SER"/>
+</workingSetManager>

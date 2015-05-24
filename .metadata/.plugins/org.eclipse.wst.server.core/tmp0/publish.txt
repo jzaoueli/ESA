@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Sun May 24 12:45:46 CEST 2015
+org.eclipse.jst.j2ee.server\:org.dieschnittstelle.jee.esa.shared.entities.erp=WEB-INF/lib/org.dieschnittstelle.jee.esa.shared.entities.erp.jar
+org.eclipse.jst.j2ee.server\:org.dieschnittstelle.jee.esa.shared.entities.crm=WEB-INF/lib/org.dieschnittstelle.jee.esa.shared.entities.crm.jar

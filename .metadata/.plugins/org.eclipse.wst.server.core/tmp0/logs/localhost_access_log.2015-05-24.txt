@@ -1,0 +1,12 @@
+127.0.0.1 - - [24/May/2015:12:21:53 +0200] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [24/May/2015:12:21:53 +0200] "GET /org.dieschnittstelle.jee.esa.jaxrs/resteasy/touchpoints HTTP/1.1" 404 1104
+127.0.0.1 - - [24/May/2015:12:22:16 +0200] "GET /org.dieschnittstelle.jee.esa.jaxrs/resteasy/touchpoints HTTP/1.1" 404 1104
+127.0.0.1 - - [24/May/2015:12:24:01 +0200] "GET /org.dieschnittstelle.jee.esa.jaxrs/resteasy/products HTTP/1.1" 404 1098
+0:0:0:0:0:0:0:1 - - [24/May/2015:12:33:27 +0200] "GET /org.dieschnittstelle.jee.esa.jaxrs/resteasy/touchpoints HTTP/1.1" 404 1104
+127.0.0.1 - - [24/May/2015:12:45:51 +0200] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [24/May/2015:12:46:29 +0200] "GET /org.dieschnittstelle.jee.esa.jaxrs/resteasy/touchpoints HTTP/1.1" 200 12
+127.0.0.1 - - [24/May/2015:12:46:42 +0200] "GET /org.dieschnittstelle.jee.esa.jaxrs/resteasy/touchpoints HTTP/1.1" 200 12
+127.0.0.1 - - [24/May/2015:12:46:45 +0200] "POST /org.dieschnittstelle.jee.esa.jaxrs/resteasy/touchpoints HTTP/1.1" 200 226
+0:0:0:0:0:0:0:1 - - [24/May/2015:12:46:49 +0200] "GET /org.dieschnittstelle.jee.esa.jaxrs/ HTTP/1.1" 200 7338
+0:0:0:0:0:0:0:1 - - [24/May/2015:12:46:50 +0200] "GET /org.dieschnittstelle.jee.esa.jaxrs/ HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [24/May/2015:12:46:53 +0200] "GET /org.dieschnittstelle.jee.esa.jaxrs/ HTTP/1.1" 304 -

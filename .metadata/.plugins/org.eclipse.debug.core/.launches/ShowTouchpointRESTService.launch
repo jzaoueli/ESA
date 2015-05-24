@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/org.dieschnittstelle.jee.esa.jaxrs.client/src/org/dieschnittstelle/jee/esa/jaxrs/client/ShowTouchpointRESTService.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="org.dieschnittstelle.jee.esa.jaxrs.client.ShowTouchpointRESTService"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="org.dieschnittstelle.jee.esa.jaxrs.client"/>
+</launchConfiguration>
